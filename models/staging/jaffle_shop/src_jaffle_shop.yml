@@ -2,8 +2,11 @@ version: 2
 
 sources:
   - name: jaffle_shop
+    description: a clone from snowflake database
     database: raw
     schema: jaffle_shop
     tables:
      - name: customers
+       description: raw dataset of cutomer model
      - name: orders
+       description: raw dataset of order model
